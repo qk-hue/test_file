@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>피카츄 | 자기소개</title>
+    <!-- 폰트 라이브러리 -->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Noto+Sans+KR:wght@400;500;700;800&display=swap" rel="stylesheet">
+     <!-- 이미지 라이브러리 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <header class="site-header">
+    <a class="brand" href="#top" aria-label="소개 페이지 처음으로">포켓몬을 소개합니다.</a>
+    <nav class="main-nav" aria-label="주요 메뉴">
+      <a href="#about">ABOUT</a>
+      <a href="#gallery">GALLERY</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="profile-section" aria-labelledby="profile-title">
+   
+      <!-- 프로필 영역-->
+        <div class="photo-frame">
+        <img src="https://i.namu.wiki/i/wkXHoks7OAU0RSEG1QgysooD6cZKyEoryQwMIgNKsoSZRt6HXR7VKjPhXIP8sBDnp4tfKLO34OK3rVn7NVrBlCqvmcoLQz7IHD-2ox1CyCj8YfoNT_Iw_W7LEStJvW6y9pkTJjOZCGJ_Cr0rv9s5aQ.webp" alt="피카츄 증명사진">
+        <span class="photo-label">PROFILE PHOTO</span>
+      </div>
+
+      <div class="profile-content">
+        <p class="eyebrow">No. 0025</p>
+            <h1 id="profile-title">피카츄</h1>
+            <p class="role">쥐포켓몬</p>
+            <dl class="profile-details">
+            <div><dt>타입</dt><dd>전기</dd></div>
+            <div><dt>크기</dt><dd>0.4m</dd></div>
+            <div><dt>특성</dt><dd>정전기</dd></div>
+            </dl>
+
+            <div class="profile-actions">
+                <button class="intro-button" id="introButton" type="button"><i data-lucide="message-circle" aria-hidden="true"></i>더 알아보기</button>
+                <div class="social-links" aria-label="SNS 링크">
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub로 이동" title="GitHub"><i data-lucide="link" aria-hidden="true"></i></a>
+                    
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram으로 이동" title="Instagram"><i data-lucide="camera" aria-hidden="true"></i></a>
+                    
+                    <a href="mailto:hello@example.com" aria-label="이메일 보내기" title="Email"><i data-lucide="mail" aria-hidden="true"></i></a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </section>
+
+    <section class="about-section" id="about" aria-labelledby="about-title">
+      <div class="section-heading"><p class="eyebrow">데뷔</p><h2 id="about-title">적.녹<br>(1996년 2월 27)<br></h2></div>
+      <div class="about-copy">
+        <p>"뺨의 양쪽에 작은 전기 주머니가 있다. 위기 상황일 때 방전한다." (관동도감)</p>
+      </div>
+      </div>
+    </section>
+    
+     <br> <br>
+     
+     <section class="toc-section" aria-labelledby="toc-title">
+    <div class="section-heading">
+        <p class="eyebrow">CONTENTS</p>
+        <h2 id="toc-title">목차</h2>
+    </div>
+
+    <nav class="toc" aria-label="페이지 목차">
+        <a href="#moves">
+            <span class="toc-number">01</span>
+            <span class="toc-icon">⚡</span>
+            <span>배우는 기술</span>
+        </a>
+
+        <a href="#stats">
+            <span class="toc-number">02</span>
+            <span class="toc-icon">📊</span>
+            <span>능력치</span>
+        </a>
+
+        <a href="#weakness">
+            <span class="toc-number">03</span>
+            <span class="toc-icon">⚔</span>
+            <span>상성</span>
+        </a>
+
+        <a href="#evolution">
+            <span class="toc-number">04</span>
+            <span class="toc-icon">⚡</span>
+            <span>진화</span>
+        </a>
+    </nav>
+</section>
+
+
+    <!-- 표만들기 -->
+    <section class="gallery-section">
+      <h2>배우는 기술</h2>
+
+    <table style="width:100%; border-collapse: collapse; margin-top: 20px;">
+     <thead>
+       <tr style="background-color: #f8f9fa; border-bottom: 2px solid #dee2e6;">
+        <th style="padding: 12px; text-align: center;">습득레벨</th>
+        <th style="padding: 12px; text-align: center;">이름</th>
+        <th style="padding: 12px; text-align: center;">유형</th>
+        <th style="padding: 12px; text-align: center;">타입</th>
+        <th style="padding: 12px; text-align: center;">위력</th>
+        <th style="padding: 12px; text-align: center;">명중률</th>
+        <th style="padding: 12px; text-align: center;">PP</th>
+      </tr>
+      <tr>
+      <td style="padding: 12px; text-align: center;">최초</td>
+      <td style="padding: 12px; text-align: center;"><strong>전기쇼크</strong></td>
+      <td style="padding: 12px; text-align: center;">공격</td>
+      <td style="padding: 12px; text-align: center; background-color: #FFFF00;" >전기</td>
+      <td style="padding: 12px; text-align: center;">40</td>
+      <td style="padding: 12px; text-align: center;">100%</td>
+      <td style="padding: 12px; text-align: center;">30</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; text-align: center;">최초</td>
+      <td style="padding: 12px; text-align: center;">울음소리</td>
+      <td style="padding: 12px; text-align: center;">변화</td>
+      <td style="padding: 12px; text-align: center; background-color: #808080;">노말</td>
+      <td style="padding: 12px; text-align: center;">공격 1⬇</td>
+      <td style="padding: 12px; text-align: center;">100%</td>
+      <td style="padding: 12px; text-align: center;">40</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; text-align: center;">6</td>
+      <td style="padding: 12px; text-align: center;">꼬리흔들기</td>
+      <td style="padding: 12px; text-align: center;">변화</td>
+      <td style="padding: 12px; text-align: center; background-color: #808080;" >노말</td>
+      <td style="padding: 12px; text-align: center;">방어 1⬇</td>
+      <td style="padding: 12px; text-align: center;">100%</td>
+      <td style="padding: 12px; text-align: center;">30</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; text-align: center;">8</td>
+      <td style="padding: 12px; text-align: center;">전기자석파</td>
+      <td style="padding: 12px; text-align: center;">변화</td>
+      <td style="padding: 12px; text-align: center; background-color: #FFFF00;">전기</td>
+      <td style="padding: 12px; text-align: center;">마비</td>
+      <td style="padding: 12px; text-align: center;">100%</td>
+      <td style="padding: 12px; text-align: center;">20</td>
+    </tr>
+     <tr>
+      <td style="padding: 12px; text-align: center;">11</td>
+      <td style="padding: 12px; text-align: center;">전광석화</td>
+      <td style="padding: 12px; text-align: center;">공격, 선공</td>
+      <td style="padding: 12px; text-align: center; background-color: #808080;">노말</td>
+      <td style="padding: 12px; text-align: center;">40</td>
+      <td style="padding: 12px; text-align: center;">100%</td>
+      <td style="padding: 12px; text-align: center;">30</td>
+    </tr>
+     <tr>
+      <td style="padding: 12px; text-align: center;">15</td>
+      <td style="padding: 12px; text-align: center;">그림자분신</td>
+      <td style="padding: 12px; text-align: center;">변화</td>
+      <td style="padding: 12px; text-align: center; background-color: #808080;">노말</td>
+      <td style="padding: 12px; text-align: center;">자신의 회피⬆</td>
+      <td style="padding: 12px; text-align: center;">100%</td>
+      <td style="padding: 12px; text-align: center;">15</td>
+    <tr>
+      <td style="padding: 12px; text-align: center;">20</td>
+      <td style="padding: 12px; text-align: center;">힘껏치기</td>
+      <td style="padding: 12px; text-align: center;">공격</td>
+      <td style="padding: 12px; text-align: center; background-color: #808080;">노말</td>
+      <td style="padding: 12px; text-align: center;">80</td>
+      <td style="padding: 12px; text-align: center;">75%</td>
+      <td style="padding: 12px; text-align: center;">20</td>      
+    </tr>
+    <tr>
+      <td style="padding: 12px; text-align: center;">26</td>
+      <td style="padding: 12px; text-align: center;">스피드스타</td>
+      <td style="padding: 12px; text-align: center;">공격, 필중</td>
+      <td style="padding: 12px; text-align: center; background-color: #808080;">노말</td>
+      <td style="padding: 12px; text-align: center;">60</td>
+      <td style="padding: 12px; text-align: center;">100%</td>
+      <td style="padding: 12px; text-align: center;">20</td>      
+    </tr>
+    <tr>
+      <td style="padding: 12px; text-align: center;">26</td>
+      <td style="padding: 12px; text-align: center;"><strong>10만볼트</strong></td>
+      <td style="padding: 12px; text-align: center;">공격</td>
+      <td style="padding: 12px; text-align: center; background-color: #FFFF00;">전기</td>
+      <td style="padding: 12px; text-align: center;">95</td>
+      <td style="padding: 12px; text-align: center;">100%</td>
+      <td style="padding: 12px; text-align: center;">15</td>      
+    </tr>
+    <tr>
+      <td style="padding: 12px; text-align: center;">33</td>
+      <td style="padding: 12px; text-align: center;">고속이동</td>
+      <td style="padding: 12px; text-align: center;">변화</td>
+      <td style="padding: 12px; text-align: center; background-color: #FFC0CB;">에스퍼</td>
+      <td style="padding: 12px; text-align: center;">자신의 스피드⬆⬆</td>
+      <td style="padding: 12px; text-align: center;">100%</td>
+      <td style="padding: 12px; text-align: center;">30</td>      
+    </tr>
+    <tr>
+      <td style="padding: 12px; text-align: center;">41</td>
+      <td style="padding: 12px; text-align: center;"><strong>번개</strong></td>
+      <td style="padding: 12px; text-align: center;">공격</td>
+      <td style="padding: 12px; text-align: center; background-color: #FFFF00;">전기</td>
+      <td style="padding: 12px; text-align: center;">120</td>
+      <td style="padding: 12px; text-align: center;">70%</td>
+      <td style="padding: 12px; text-align: center;">10</td>      
+    </tr>
+    <tr>
+      <td style="padding: 12px; text-align: center;">50</td>
+      <td style="padding: 12px; text-align: center;">빛의장막</td>
+      <td style="padding: 12px; text-align: center;">변화</td>
+      <td style="padding: 12px; text-align: center; background-color: #FFC0CB;">에스퍼</td>
+      <td style="padding: 12px; text-align: center;">빛의장막 5턴 설치</td>
+      <td style="padding: 12px; text-align: center;">100%</td>
+      <td style="padding: 12px; text-align: center;">30</td>      
+    </tr>
+    <p>*굵게 쓴 기술은 위력 상승</p>
+    </table>
+     </thead>
+    </section>
+
+    <!-- 차트만들기 -->
+     <section class="stats-section" id="stats">
+    <h2>능력치</h2>
+    <p>*가장 약한 능력은 파란색, 가장 뛰어난 능력은 빨간색</p>
+
+<div class="bar">
+    <span>체력</span>
+    <div class="bar-bg">
+        <div class="bar-fill 체력">35</div>
+    </div>
+</div>
+
+<div class="bar">
+    <span>공격</span>
+    <div class="bar-bg">
+        <div class="bar-fill 공격">55</div>
+    </div>
+</div>
+
+<div class="bar">
+    <span>방어</span>
+    <div class="bar-bg">
+        <div class="bar-fill 방어">40</div>
+    </div>
+</div>
+
+<div class="bar">
+    <span>특수공격</span>
+    <div class="bar-bg">
+        <div class="bar-fill 특수공격">50</div>
+    </div>
+</div>
+
+<div class="bar">
+    <span>특수방어</span>
+    <div class="bar-bg">
+        <div class="bar-fill 특수방어">50</div>
+    </div>
+</div>
+
+<div class="bar">
+    <span>스피드</span>
+    <div class="bar-bg">
+        <div class="bar-fill 스피드">90</div>
+    </div>
+</div>
+
+<div class="bar">
+    <span>총합</span>
+    <div class="bar-bg">
+        <div class="bar-fill 총합">320</div>
+    </div>
+</div>
+</section>
+
+ <section class="weakness-section" id="weakness">
+    <h2>상성</h2>
+       <table>
+      <tr>
+      <td style="padding: 12px; text-align: center;">약점</td>   
+      <td style="padding: 12px; text-align: center; background-color:#F4A460; color : white;">땅</td>
+    </tr>
+      <tr>
+      <td style="padding: 12px; text-align: center;">강점</td>   
+      <td style="padding: 12px; text-align: center; background-color:#0000FF; color : white;">물</td>
+      <td style="padding: 12px; text-align: center; background-color:#00FFFF; color : white;" >비행</td>
+    </tr>
+    </table>
+    </section>
+
+    <section class="evolution-section" id="evolution">
+    <div class="section-heading">
+        <h2>진화</h2>
+    </div>
+
+    <div class="evolution-line">
+
+        <article class="evolution-card">
+            <div class="evolution-image">
+                <img src="https://i.namu.wiki/i/nequzOgmKFTYjXrhSR6cGPs0GLRxz6nk36LYfhl8NszGYYJvhV0rbbsiLEpjMLbOIevMA_Yda2GOaMCV0Ix5w1qwVJPO51CnbAd1NV6jbanM-2hPFtdKwB2nJeqmnyP3OQM2WGa1Wovwerpe4lF0Ow.webp" alt="피츄">
+            </div>
+            <h3>피츄</h3>
+            <p>친해진 후 레벨업</p>
+        </article>
+
+        <div class="evolution-arrow">→</div>
+
+        <article class="evolution-card">
+            <div class="evolution-image">
+                <img src="https://i.namu.wiki/i/-kcl7laArhNFdGbYAWAfKXdYiv4rVakqsj6yfiqT5RgJL1rBt6M-RkRbMcwAi8HSyVYxHQIkkZOKApYVb4FAGlKYAtAd2Jkw8vA2Jsa1V1YSsPXRRm7dloVqQF_vvKXi9owzaDaoP1hqCRJ-bnuNHg.webp" alt="피카츄">
+            </div>
+            <h3>피카츄</h3>
+            <p>천둥의돌</p>
+        </article>
+
+        <div class="evolution-arrow">→</div>
+
+        <article class="evolution-card">
+            <div class="evolution-image">
+                <img src="https://i.namu.wiki/i/5lg8NLRcHK-Ya6RThVJ2DdB0Pv46Sqa1Wi86afSBfwWkHCLrEDH7QG8gWMuktO_C1KfTazSZEI5pc1IdDVsDUFLo5V2Xhjw2eApPnU2ZJ8llydbg9M8JsbzN2i7X4ICdeEQ1GuHRjYTYRqPiXw20OQ.webp" alt="라이츄">
+            </div>
+            <h3>라이츄</h3>
+        </article>
+
+    </div>
+</section>
+ 
+
+
+     <section class="gallery-section" id="gallery" aria-labelledby="gallery-title">
+     <div class="gallery-header">
+        <div><p class="eyebrow">더 알아보기</p><h2 id="gallery-title">연관 포켓몬</h2></div>
+        <div class="gallery-controls">
+          <button class="gallery-prev" type="button" aria-label="이전 사진" title="이전 사진"><i data-lucide="arrow-left" aria-hidden="true"></i></button>
+          <button class="gallery-next" type="button" aria-label="다음 사진" title="다음 사진"><i data-lucide="arrow-right" aria-hidden="true"></i></button>
+        </div>
+      </div>
+
+      <div class="swiper gallery-swiper">
+        <div class="swiper-wrapper">
+        <article class="swiper-slide gallery-card"><img src="https://i.namu.wiki/i/QBTKX-dnHz3tjD3s_5iK_oM56UW2RRG9sRbcz4X7c1opNcX1ljYh0R7ALmeBxanphbPob0cYcyehtiXF16CHZ2x91fuRtxNKE5Vtg3a09xQiDyg0dCwqe9B3WzP4xqEkgv57V60Ix4ky17Q7SRi_fA.webp" alt="파이리"><p>파이리</p></article>
+        <article class="swiper-slide gallery-card"><img src="https://i.namu.wiki/i/cLMfI4otC2B4dDARZ3o1jSsY-zbMNvmK4f_OU4NjRvML3vloRYoz4quBjR27SX4CtVPwI84vtuz0EOip5v9orXwB7tSungV2ggVr8H28priOZc6D341q207oASBFUrl41Y85OcEFZGjTdg_FTqs45w.webp" alt="이상해씨"><p>이상해씨</p></article>
+        <article class="swiper-slide gallery-card"><img src="https://i.namu.wiki/i/D63AtGIIhItZxvafw-5Ogp5hYxI1mKfP4j_a1VWJYXfD6GPGl59pibFRG7b1mL5lL2ELk3BpXVtpV79vs4fJJ4qBLwKPCUEmqYesQA1wPA67OPrraSWFNJ5cfWVACRV4Eu5jxo8vkbJfxcXqovagRw.webp" alt="꼬부기"><p>꼬부기</p></article>
+        <article class="swiper-slide gallery-card"><img src="https://i.namu.wiki/i/hhmnc-DfS_9BHRe8FZyMbQK-pAkhGXV7kYEaB6b4a1w_k4dpsJ54Pg_Td0z6kvo036jk7MSE_fOi8QHyanEhGfirouQAWAW9pgE3b08UNhnQO1eFF8H5fs92gzcDMNxdOF8jWNnwcYgtqtq2Uf4cKA.webp" alt="버터플"><p>버터플</p></article>
+        <article class="swiper-slide gallery-card"><img src="https://i.namu.wiki/i/QvViCoopbdDpowTZaPTKY3z_Z_ELinrsZVFcZ-AxrwzNv8RBSF-6juwElFD_YXlRGNHdzoUrKaqoYn0AFniIgcVWw5dpfwaxSy71Hr7UwW-30YChw5p6LevILhDx6UpAv2L2xkdslm9viJ55ENVHSA.webp" alt="피죤투"><p>피죤투</p></article>
+      </div>
+     
+      <div class="swiper-pagination">        
+      </div>
+      </section>
+  </main>
+  <footer>2026 BHJ.DEX.</footer>
+    
+     <!-- 아이콘 라이브러리-->
+    <script src="https://unpkg.com/lucide@latest"></script>
+      <!-- 이미지 슬라이드 라이브러리-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>   
+     <!-- 경고창 라이브러리-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="js/script.js"> </script>
+
+</body>
+</html>
+
